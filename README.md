@@ -1,21 +1,67 @@
 # Move Square Box
 
-A Flutter application that demonstrates animating a square box's position within the screen. The box starts at the center and moves left or right based on user interaction, with smooth animations.
+A Flutter project to demonstrate moving a square box.
 
-## Features
+## Prerequisites
 
-- **Animated Movement**: The square box moves smoothly between the left, center, and right positions upon user interaction.
-- **Responsive Design**: Ensures consistent behavior across various screen sizes and orientations.
-- **Interactive Controls**: Users can control the box's position using on-screen buttons.
+Before you begin, ensure you have met the following requirements:
 
-## Getting Started
+- Java JDK 17.x
+- Flutter SDK 3.24.3
+- Dart SDK 3.5.3
+- Visual Studio Code (version 1.97.1)
 
-### Prerequisites
+## Installation
 
-- **Flutter SDK**: Ensure you have Flutter installed. If not, follow the [Flutter installation guide](https://docs.flutter.dev/get-started/install).
+To install and run this project, follow these steps:
 
-### Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Manu43236/move-square-box.git
+    cd move-square-box
+    ```
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Manu43236/move-square-box.git
+2. Install dependencies:
+    ```sh
+    flutter pub get
+    ```
+
+3. Run the project:
+    ```sh
+    flutter run
+    ```
+
+
+https://github.com/user-attachments/assets/3ede7ca6-e296-425e-980b-4293520d73f9
+
+
+## Usage
+
+To use this project, follow these steps:
+
+1. Open the project in Visual Studio Code.
+2. Ensure you have an emulator or a physical device connected.
+3. Press `F5` to start debugging.
+
+## Contributing
+
+To contribute to this project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+    ```sh
+    git checkout -b feature/your-feature-name
+    ```
+3. Make your changes and commit them:
+    ```sh
+    git commit -m 'Add some feature'
+    ```
+4. Push to the branch:
+    ```sh
+    git push origin feature/your-feature-name
+    ```
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
